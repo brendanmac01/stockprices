@@ -1,14 +1,9 @@
 import './App.css';
-// importing Routes
 import { Routes, Route } from "react-router-dom";
-
-// importing "page" components
 import Main from "./pages/Main";
 import Stocks from "./pages/Stocks";
 import Price from "./pages/Price";
 import About from "./pages/About";
-
-// import "UI" componennts
 import Nav from "./components/Nav";
 
 function App() {
